@@ -19,48 +19,53 @@
 </head>
 
 <body>
-    <div class="row">
-        <div class="col-md-12 logo text-center">nuBie</div>
-    </div>
-    <div class="row justify-content-center mx-auto">
-        <div class="col-md-3">
-            <div class="form-group">
-                <label for="searchTitle">Title</label>
-                <input type="text" class="form-control" name="searchTitle" id="searchTitle" aria-describedby="helpId"
-                    placeholder="Search event by title...">
-                <small id="helpId" class="form-text text-muted">Enter your title</small>
-            </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 logo text-center">nuBie</div>
         </div>
-        <div class="col-md-3">
-            <div class="form-group">
-                <label for="searchCity">Location</label>
-                <input type="text" class="form-control" name="searchCity" id="searchCity" aria-describedby="helpId"
-                    placeholder="" required>
-
-                <small id="helpId" class="form-text text-muted">Enter city or
-                    zipcode</small>
-            </div>
-        </div>
-        <div class="col-md-3">
-
-            <div class="form-group">
-                <label for="searchDate">Select Date</label>
-                <div id="datepicker" class="input-group date" data-date-format="yyyy-mm-dd">
-                    <input class="form-control" type="text" name="searchDate" id="searchDate" aria-describedby="helpId"
-                        readonly />
-                    <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+        <div class="row justify-content-between mx-auto">
+            <div class="col-md-3">
+                <div class="form-group">
+                    <label for="searchTitle">Title</label>
+                    <input type="text" class="form-control" name="searchTitle" id="searchTitle"
+                        aria-describedby="helpId" placeholder="Search event by title...">
+                    <small id="helpId" class="form-text text-muted">Enter your title</small>
                 </div>
-                <small id="helpId" class="form-text text-muted">Enter date as:
-                    YYYY-MM-DD</small>
+            </div>
+            <div class="col-md-3">
+                <div class="form-group">
+                    <label for="searchCity">Location</label>
+                    <input type="text" class="form-control" name="searchCity" id="searchCity" aria-describedby="helpId"
+                        placeholder="" required>
 
+                    <small id="helpId" class="form-text text-muted">Enter city or
+                        zipcode</small>
+                </div>
+            </div>
+            <div class="col-md-3">
+
+                <div class="form-group">
+                    <label for="searchDate">Select Date</label>
+                    <div id="datepicker" class="input-group date" data-date-format="yyyy-mm-dd">
+                        <input class="form-control" type="text" name="searchDate" id="searchDate"
+                            aria-describedby="helpId" readonly />
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                    </div>
+                    <small id="helpId" class="form-text text-muted">Enter date as:
+                        YYYY-MM-DD</small>
+
+                </div>
+            </div>
+            <div class="col-md-1 d-flex align-items-center mt-3">
+                <button type="submit" id="submit" class="btn mb-2 btn-primary"><i
+                        class="fas fa-search fa-5"></i></button>
             </div>
         </div>
-        <div class="col-md-1 d-flex align-items-center mt-3">
-            <button type="submit" id="submit" class="btn mb-2 btn-primary"><i class="fas fa-search fa-5"></i></button>
-        </div>
     </div>
     </div>
     </div>
+
+
     <!-- START CONTAINER -->
     <div class="container">
         <!-- START WORKSPACE ACTIVITY ROW -->
