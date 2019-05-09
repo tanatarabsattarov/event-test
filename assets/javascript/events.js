@@ -4,7 +4,7 @@
 // current date for date input value 
 $("#searchDate").val(moment().format('YYYY-MM-DD'));
 // location service to find current location
-$.get("http://ipinfo.io", function (response) {
+$.get("https://ipinfo.io", function (response) {
     // current location for location input value
     $("#searchCity").val(response.city + ", " + response.postal);
 }, "jsonp");
