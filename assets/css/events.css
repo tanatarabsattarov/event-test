@@ -1,0 +1,133 @@
+body {
+    background: #007bff;
+    background: linear-gradient(to right, #0062E6, #33AEFF);
+  }
+.header {
+    height:100vh;
+}
+label, small {
+    color:white;
+}
+label {
+    font-size:25px;
+}
+input {
+    font-size:16px !important;
+    border-radius:25px !important;
+    padding:20px !important;
+}
+button#submit {
+    color:white !important;
+    border-radius: 50px !important;
+    padding:10px 15px !important;
+    background: #EC6465;
+}
+.logo {
+    padding-top:10px;
+    font-family: 'League Script', cursive;
+    font-size: 15vmin;
+    color:white;
+}
+.text-muted {
+    color:rgba(255, 255, 255, 0.5) !important;
+}
+.entry-form {
+    padding-top: 25px
+}
+.OutNaboutBeginSection {
+    padding-top: 25px
+}
+.events-results {
+    padding-top: 25px
+}
+#eventbrite h2 {
+    font-size:20px;
+}
+.eventsFrame {
+    padding:15px 15px 15px 135px;
+    
+    margin:0px;
+    overflow: hidden;
+    position: relative;
+    height: 132px;
+    display: block;
+    border-radius: 5px;
+}
+.eventdate {
+    background-color: #EC6465;
+    position: absolute;
+    width: 110px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    color: #fff;
+    padding-top: 40px;
+    text-align:center;
+}
+.eventday {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: -0.01em;
+    line-height: 0.8em;
+}
+.eventmonth {
+    font-size: 13px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 18px;
+    margin-top:10px;
+}
+.eventButton {
+    float:right;
+    overflow: hidden;
+}
+.btn:focus {
+    outline: 0;
+}
+.description {
+    padding:15px 20px 15px 30px;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 5px;
+    background-color: white;
+}
+.description * {
+    font-size:14px;
+}
+.description img {
+    display:none !important;
+}
+.nav-pills .nav-link.active, .nav-pills .nav-link  {
+    border-radius:5px;
+    padding:0;
+    margin:0px 0px 10px 15px;
+}
+.nav-pills .nav-link {
+    background-color:white;
+}
+
+.nav-pills .nav-link.active {
+    color:white !important;
+    background-color:  rgba(221, 10, 10, 0.125) !important;
+}
+.linkButton {
+
+    position: absolute;
+    top:-10px;
+    right:-10px;
+    margin:0px 0px 30px 30px;
+    width:50px;
+    height:50px;
+    background:#EC6465;
+    border-radius:10px;
+    border:none;    
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dateNtime {
+    margin-top:40px;
+}
+#datepicker{width:100%; margin: 0;}
+#datepicker > span:hover{cursor: pointer;}
