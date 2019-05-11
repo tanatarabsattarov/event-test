@@ -1,0 +1,401 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    line-height: 1.8rem;
+    color:#666;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.main, .img1, .img2, .img3{
+    position: relative; 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*
+    fixed = parallax
+    scroll = normal 
+    */
+}
+
+/*----------------------NavBar--------------------*/
+/* Only for index.html Page */
+.hiddenNav{
+    display: none;
+}
+
+.showNav{
+    color:white;
+    display: block;
+    position: fixed;
+    width: 100%; 
+    z-index:1;
+    animation-duration: 2000;
+}
+    #navDesign{
+        color:white;
+        display: block;
+        position: fixed;
+        width: 100%; 
+        z-index:1;
+        animation-duration: 2000;
+        }
+
+
+
+
+/*----------------------NavBar END--------------------*/
+
+
+/*--------------------- Index Page Main CSS -----------------------*/
+#homePageLgo{
+    position: absolute;
+    top: 40%;
+    color: white;
+    border: 1px solid white;
+    background: black;
+    padding: 30px 50px 30px 50px;
+    display: inline;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+}
+
+
+.logoLable{
+    color: white;
+    display: inline;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    font-size: 30px;
+    text-shadow: 1px 1px 7px black;
+    font-weight: 500;
+}
+
+.headerText{
+    padding: 10px;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+    display: inline;
+    justify-content: center;
+    border: 1px solid white;
+    line-height: 1.8rem;
+    background: rgba(75, 75, 75, 0.7);
+}
+
+.lableText{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+}
+
+.lableText .border {
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+}
+
+.main{
+    background-image: url(../../pictures/indexHTML/4bgrPic.jpg);
+    min-height: 100%;
+}
+
+.img1{
+    background-image: url(../../pictures/indexHTML/scrolling2Pic.jpg);
+    min-height: 400px;
+    /* opacity: 0.70; */
+}
+
+.img2{
+    background-image: url(../../pictures/indexHTML/events3.jpg);
+    min-height: 400px;
+    /* opacity: 0.70; */
+    
+}
+
+.img3{
+    background-image: url(../../pictures/indexHTML/foodPic.jpg);
+    min-height: 400px; 
+    /* opacity: 0.70; */
+}
+
+.footer{
+    background-image: url(../../pictures/indexHTML/4bgrPic.jpg);
+    min-height: 93%;
+}
+
+
+
+
+.section {
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-light{
+    background-color: #f4f4f4;
+    color: #666;  
+}
+    #navBarOn{
+        margin-top: 100px;
+    }
+
+.section-dark{
+    background-color: #282E34;
+    color: #ddd;
+}
+
+/* Footer  */
+.footer{
+    position: relative;
+}
+.footerLogo{
+    color: white;
+    border: 1px solid white;
+    background: black;
+    padding: 30px 50px 30px 50px;
+    border-radius: 5px;
+    position: absolute;
+    top: 15%;
+    /* text-align: center; */
+    /* transform: translate(50%, -50%); */
+
+
+}
+.teamPics{
+    color: white;
+    position: absolute;
+    bottom: 70px;
+    margin-left: 40%;
+    text-align: center;
+}
+
+.teamPics>img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+.copyRight{
+    color: white;
+    border: 1px solid rgb(83, 83, 83);
+    background: rgba(44, 44, 44, 0.9);
+    padding-top: 20px;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    text-align: center;
+}
+/*--------------------- Index Page Main CSS END -----------------------*/
+
+
+
+
+/*-------------------- Home Search CSS------------------ */
+.homeSearchTopSection{
+    border: 1px solid black;
+}
+
+
+#homeSearchTopSection{
+    margin-top: 20px;
+}
+
+#map {
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+
+#homeSearch{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+.main1{
+    display: grid;
+    height: 90vh;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "box1 box2"
+    "box1 box3"
+}
+
+.box1{
+    grid-area: box1;
+    background: lightcoral;
+}
+
+.box2{
+    grid-area: box2;
+    background: lightblue;
+    height: 300px;
+}
+
+.box3{
+    grid-area: box3;
+    background: lightgreen;
+
+}
+/*-------------------- /Home Search CSS END/ ------------------ */
+
+
+
+
+/*-------------------- /Jobs Search CSS/ ------------------ */
+#test{
+    background: url(../../pictures/JobPage/foodBgr.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#jobLogo{
+    margin: 10px 0 20px 10px;
+    text-align: center;
+    font-weight: 600;
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+    width: 200px;
+    border: 1px solid white; 
+    float: left;
+    display: inline;
+}
+
+#jobSerachLables{
+    float: right;
+    margin: 30px;
+}
+
+#jobSearchRsltCard {
+    max-width: 600px;
+    margin-left: 30px;
+}
+
+.pagination {
+    display: inline-block;
+  }
+
+  .pagination a {
+    float: left;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    transition: background-color .3s;
+    border-radius: 5px;
+    margin: 0 4px;
+    text-align: center;
+    padding: 5px;
+  }
+   
+  .pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+  }
+
+
+.clear{
+    clear: both;
+}
+
+.jobSearchResult{
+    display: block;
+}
+
+.jobSearchLinks{
+    display: inline;
+}
+
+.posted {
+    float: right;
+}
+
+.testingBoxRight{
+    border: 1px solid lightgray;
+}
+
+.testingBoxLeft{
+    border: 1px solid lightgray;
+}
+
+/*-------------------- /Jobs Search CSS END/ ------------------ */
+
+
+
+/*-------------------- Food Main Page CSS------------------ */
+#foodHeader{
+    height: 350px;
+}
+#foodLogo{
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 600;
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+    width: 200px;
+    border: 1px solid white; 
+}
+ 
+.searchLable{
+    color: white;
+    margin: 60px 0 30px 0;
+    text-shadow: 1px 4px 4px black; 
+}
+
+.foodSearchTabs{
+    width: 80%;
+    margin: auto;
+}
+
+.foodSearchHeader{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(../../pictures/FoodPage/headerPic.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.foobBottomSection{
+    background: #F3F3F3;
+    color: rgb(43, 43, 43);
+}
+
+.girdName{
+    text-align: center;
+}
+
+/* Food Bottom Grid */
+.foodBottomGrid{
+    
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 400px);
+    grid-column-gap: 30px;
+    grid-row-gap: 20px;
+    justify-items: center;
+    justify-content: center;
+}
+/* Food Bottom Grid */
+
+/*-------------------- Food Main Page CSS------------------ */
+
+
+

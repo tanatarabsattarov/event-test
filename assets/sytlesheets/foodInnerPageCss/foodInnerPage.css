@@ -1,0 +1,114 @@
+/*-------------------- Food Main Page CSS------------------ */
+body{
+    background: #F3F3F3;
+}
+
+/* #foodHeader{
+    height: 30px;
+} */
+#foodLogo{
+    text-align: center;
+    font-weight: 600;
+    background-color: #111;
+    color: #fff;
+    padding: 5px;
+    width: 80px;
+    border: 1px solid white; 
+    font-size: 10px;
+    height: 40px;
+}
+#foodLogo>h1{
+    font-size: 20px;
+}
+ 
+.searchLable{
+    color: white;
+    margin: 0px 0 30px 0;
+    text-shadow: 1px 4px 4px black; 
+   
+}
+
+.foodSearchTabs{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+
+.foodSearchHeader{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(../../pictures/FoodPage/headerPic.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.foobBottomSection{
+    background: #F3F3F3;
+    color: rgb(43, 43, 43);
+}
+
+.girdName{
+    text-align: center;
+}
+
+/* Food Bottom Grid */
+#foodBottomGrid{
+    
+    margin-top: 70px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 400px);
+    grid-column-gap: 30px;
+    grid-row-gap: 20px;
+    justify-items: center;
+    justify-content: center;
+}
+/* Food Bottom Grid */
+
+
+/* Restaurant Tabs */
+.restCards{
+    width: 420px;
+    height: 280px;
+}
+
+.restCards>a{
+    text-decoration: none;
+}
+
+.rating{
+    margin-bottom: 3px;
+    float: right;
+    /* border: 1px solid green; */
+    background-color: #3F7E00;
+    border-radius: 5px;
+    color: white;
+    padding: 4px;
+}
+
+.votes{ 
+    text-align: right;
+    font-size: 11px;
+    float: right;
+}
+
+#restName{
+   color: rgb(211, 86, 86);
+   font-weight: 700;
+   font-size: 30px;
+  
+}
+
+.menuBtn{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menuBtn:hover{
+    background: #F3F3F3;
+    text-decoration: none;
+    color: green;
+}
+/*-------------------- Food Main Page CSS------------------ */
