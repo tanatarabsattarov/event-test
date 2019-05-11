@@ -137,8 +137,8 @@ button#submit {
     top: 0;
 }
 .description .content{
-    height: 94vh;
-    overflow: scroll;
+/*     height: 94vh;
+    overflow: scroll; */
 }
 
 .foodSearchHeader {
