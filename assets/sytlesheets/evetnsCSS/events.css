@@ -87,7 +87,8 @@ button#submit {
     font-size:14px;
 }
 .description img {
-    display:none !important;
+max-width:100%;
+	/*     display:none !important; */
 }
 .nav-pills .nav-link.active, .nav-pills .nav-link  {
     border-radius:5px;
