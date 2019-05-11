@@ -89,6 +89,9 @@ button#submit {
 .description img {
     max-width:100%;
 }
+.nav-pills {
+    margin-bottom: 20px;
+}
 .nav-pills .nav-link.active, .nav-pills .nav-link  {
     border-radius:5px;
     padding:0;
@@ -134,11 +137,12 @@ button#submit {
 .make-me-sticky {
     position: -webkit-sticky;
 	position: sticky;
-    top: 0;
+    top: 20px;
+    margin-bottom: 30px;
 }
 .description .content{
-/*     height: 94vh;
-    overflow: scroll; */
+    /* height: 94vh;
+    overflow: auto; */
 }
 
 .foodSearchHeader {
