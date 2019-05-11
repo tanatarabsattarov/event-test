@@ -87,8 +87,7 @@ button#submit {
     font-size:14px;
 }
 .description img {
-max-width:100%;
-	/*     display:none !important; */
+    max-width:100%;
 }
 .nav-pills .nav-link.active, .nav-pills .nav-link  {
     border-radius:5px;
@@ -137,8 +136,8 @@ max-width:100%;
 	position: sticky;
     top: 0;
 }
-.description .row {
-    height:94vh;
+.description .content{
+    height: 94vh;
     overflow: scroll;
 }
 
