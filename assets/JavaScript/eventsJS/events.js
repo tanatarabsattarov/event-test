@@ -86,10 +86,10 @@ $("#submit").on("click", function (event) {
                 $("#eventbrite").append(newDiv2);
             } // END of IF conditional
             // ELSE conditional for no reslut
-            else {
-                $("#eventbrite").empty();
-                $("#eventbrite").html("<h1 class='text-center'>No results found</h2>");
-            }
+           // else {
+              //  $("#eventbrite").empty();
+              //  $("#eventbrite").html("<h1 class='text-center'>No results found</h2>");
+           // }
         }; // END loop for data
 
     }); // END AJAX
