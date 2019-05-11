@@ -61,7 +61,9 @@ $("#submit").on("click", function (event) {
                 newDiv1.find('a:first-of-type').addClass('active');
                 // right column div inner data       
                 var newDiv4 = $("<div>").addClass("tab-pane fade show description make-me-sticky").attr({ id: "v-pills-" + i, role: "tabpannel", "aria-labelledby": "v-pills-" + i + "-tab" }).html(`
-                <div class="row">
+                <div class="content">
+                <img src="${data.events[i].logo.url}" style="width:100%;">
+                <div class="row mt-4">
                 <div class="col-md-9">
                 <h2>${data.events[i].name.text}</h2>
                 <p>${data.events[i].description.html}</p>
@@ -72,7 +74,7 @@ $("#submit").on("click", function (event) {
                 <br>${$.format.date(data.events[i].start.local, "hh:mm a")}</p>
                 <h4 class="mt-5">Location</h4>
                 <p>${data.events[i].venue.address.localized_address_display}</p>
-                
+                </div>
                 </div>
                 <a href="${data.events[i].url}" target="_blank" class="linkButton"><i class="fas fa-external-link-alt fa-2x"></i></a>
                 `);
@@ -86,10 +88,10 @@ $("#submit").on("click", function (event) {
                 $("#eventbrite").append(newDiv2);
             } // END of IF conditional
             // ELSE conditional for no reslut
-           // else {
-              //  $("#eventbrite").empty();
-              //  $("#eventbrite").html("<h1 class='text-center'>No results found</h2>");
-           // }
+            // else {
+            //     $("#eventbrite").empty();
+            //     $("#eventbrite").html("<h1 class='text-center'>No results found</h2>");
+            // }
         }; // END loop for data
 
     }); // END AJAX
